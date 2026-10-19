@@ -1,0 +1,16 @@
+{
+  "name": "@nx/snowflake-maker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Seeded random sixfold snowflakes as editable, portable SVG artwork.",
+  "exports": { ".": "./plugins/snowflakeMakerPlugin.js", "./index.json": "./index.json" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:browser": "node test/browser.mjs",
+    "gallery": "node tools/gallery.mjs",
+    "lint": "node ../nx-svg-store/tools/lint-plugin-store.mjs",
+    "versions:lock": "node ../nx-svg-store/tools/lock-versions.mjs"
+  },
+  "license": "BSD-3-Clause"
+}

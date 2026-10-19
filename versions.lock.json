@@ -1,0 +1,10 @@
+{
+  "snowflake-maker": {
+    "version": "1.0.0",
+    "hash": "9645a311d053b6a5",
+    "files": [
+      "lib/snowflake.js",
+      "plugins/snowflakeMakerPlugin.js"
+    ]
+  }
+}

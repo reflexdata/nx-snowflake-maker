@@ -1,0 +1,21 @@
+{
+  "name": "Snowflake Maker",
+  "description": "Random sixfold vector snowflakes for nx-svg-editor surfaces.",
+  "plugins": [{
+    "id": "snowflake-maker",
+    "name": "Snowflake Maker",
+    "summary": "Make random sixfold snowflakes with repeatable seeds, editable branches and colours.",
+    "description": "Insert a fresh random snowflake, then try new seeds with New snowflake. Surprise me, stellar, fern and simple shapes; branch levels, spread, line width, centre detail, rotation and colour. Every snowflake has six identical, mirrored arms. Saved seeds keep artwork stable across redraws, undo, save/load and ordinary SVG or offline HTML exports. Private Edit preview with Apply/Cancel. Pure SVG, no network access or external runtime dependencies.",
+    "url": "./plugins/snowflakeMakerPlugin.js",
+    "icon": "./icons/snowflake-maker.svg",
+    "screenshots": [{ "url": "./screenshots/gallery.svg", "caption": "Six seeded snowflakes, drawn with the plugin's vector geometry" }],
+    "version": "1.0.0",
+    "apiVersion": 1,
+    "area": "Illustration",
+    "tags": ["snowflake", "snow", "winter", "random", "seed", "crystal", "symmetry", "generative", "vector"],
+    "permissions": {},
+    "license": "BSD-3-Clause",
+    "updated": "2026-10-19",
+    "changelog": [{"version": "1.0.0", "date": "2026-10-19", "notes": "Seeded random sixfold snowflakes, three branch styles, editable detail and colours, private previews and portable SVG."}]
+  }]
+}
